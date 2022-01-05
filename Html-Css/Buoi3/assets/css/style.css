@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1000px;
+    margin: auto;
+    padding: auto;
+    font-family: 'Merriweather',sans-serif;
+}
+
+
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0 0 20px;
+}
+
+p {
+    margin: 0 0 32px;
+    font-size: 16px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+#header .info {
+    font-size: 13px;
+}
+
+#header .info a {
+    color: #997947;
+}
+
+#header .info .dacbiet::after {
+    content: '|';
+    padding: 0 1px;
+}
+
+
+/* content */
+
+#content h2 {
+    margin-top: 40px;
+}
+#content ul {
+    padding-inline-start: 16px;
+    margin-bottom: 32px;
+}
+
+#content ul li {
+    margin-bottom: 8px;
+}
+
+#content a {
+    color: rgb(216 53 53);
+    font-weight: bold;
+}
+
+/* Nguon */
+
+#nguon a {
+    color: #be9149;
+}
+
+#nguon a:hover {
+    color: red;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        width: 300px;
+    }
+}
+
