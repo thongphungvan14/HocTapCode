@@ -1,6 +1,6 @@
 # HocTapCode
 <br/>
-echo "# HocTapCode" >> README.md
+echo "# HocTapCode" >> README.md<br/>
 git init
 git add README.md
 git commit -m "first commit"
