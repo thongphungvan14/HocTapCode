@@ -1,5 +1,10 @@
 # HocTapCode
 <br/>
+# Clone: <br/>
+git clone https://github.com/thongphungvan14/HocTapCode.git
+<br/>
+
+<br/>
 echo "# HocTapCode" >> README.md
 <br/>
 git init
